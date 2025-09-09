@@ -3,12 +3,14 @@ using UnityEngine;
 
 public class Spawn : MonoBehaviour
 {
+    public float time;
+
     public List<GameObject> spawnPosition;
     public List<GameObject> obstaculosPrefab;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
-        InvokeRepeating("SpawnObstaculos", 0, 1);
+        InvokeRepeating("SpawnObstaculos", 0, time);
     }
 
     void SpawnObstaculos()
