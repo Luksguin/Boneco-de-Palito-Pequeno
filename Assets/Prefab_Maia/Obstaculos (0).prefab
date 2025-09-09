@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2034624523750338481, guid: f44ab46ce89e2904d9df67362dd22c16, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c7fcf295b9374534f88390919b826e18, type: 3}
+    - target: {fileID: 3709720866909268387, guid: f44ab46ce89e2904d9df67362dd22c16, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3720772048851587213, guid: f44ab46ce89e2904d9df67362dd22c16, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -54,7 +62,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7235917390964830955, guid: f44ab46ce89e2904d9df67362dd22c16, type: 3}
       propertyPath: m_Name
-      value: Obstaculos Variant
+      value: Obstaculos (0)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8556449538255270484, guid: f44ab46ce89e2904d9df67362dd22c16, type: 3}
+      propertyPath: m_Size.x
+      value: 1.2797692
+      objectReference: {fileID: 0}
+    - target: {fileID: 8556449538255270484, guid: f44ab46ce89e2904d9df67362dd22c16, type: 3}
+      propertyPath: m_Size.y
+      value: 1.0274282
+      objectReference: {fileID: 0}
+    - target: {fileID: 8556449538255270484, guid: f44ab46ce89e2904d9df67362dd22c16, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.041142106
+      objectReference: {fileID: 0}
+    - target: {fileID: 8556449538255270484, guid: f44ab46ce89e2904d9df67362dd22c16, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.013714194
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
