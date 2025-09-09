@@ -17,9 +17,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if(Time.time > 30f)
+        if(Time.time > 15f)
         {
-            
+            explosion.SetActive(true);
 
             Invoke("StopGame", 1f);
         }
